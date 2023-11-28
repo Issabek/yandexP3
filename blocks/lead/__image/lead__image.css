@@ -1,0 +1,8 @@
+.lead__image{
+    width:984px;
+    height:615px;
+    background-image: url("/images/russian-map.svg");
+    background-size: 984px 615px;
+    position: relative;
+    margin: auto;
+}

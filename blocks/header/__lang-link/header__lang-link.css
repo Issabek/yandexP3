@@ -1,0 +1,9 @@
+.header__lang-link{
+    color:white;
+}
+.header__lang-link:last-child{
+    text-decoration: none;
+}
+.header__lang-link:first-child{
+    text-decoration: underline;
+}
