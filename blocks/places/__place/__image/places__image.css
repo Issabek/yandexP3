@@ -1,0 +1,4 @@
+.places__image{
+    grid-row: span 2;
+    width:460px;
+}

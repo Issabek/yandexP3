@@ -1,0 +1,11 @@
+.header__lang-links{
+    display: flex;
+    flex-direction: row;
+}
+.header__lang-link:last-child{
+    text-decoration: none;
+}
+.header__lang-link:first-child{
+    text-decoration: underline;
+    padding-right:18px;
+}

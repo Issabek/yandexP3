@@ -1,0 +1,13 @@
+.photo-grid{
+    display: grid;
+    grid-template-columns: 284px 284px 284px 284px;
+    grid-template-rows: repeat(3, 213px);
+    /* Отступы между рядами */
+    row-gap: 16px;
+    /* Отступы между колонками */
+    column-gap: 16px;
+    margin-top:92px;
+    padding: 0;
+    margin-left:48px;
+    margin-right:48px;
+}

@@ -1,0 +1,15 @@
+.cover__overlay{
+    opacity: 0.3;
+    background: #2A2C2F;
+    transition-property: opacity;
+    transition-duration: 0.3s;
+    transition-timing-function: linear;
+    z-index: 2;
+    position: absolute;
+    height: 740px;
+    width: 1184px;
+}
+
+.cover__overlay:hover{
+    opacity: 0.8;
+}

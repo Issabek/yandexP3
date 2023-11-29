@@ -1,9 +1,6 @@
 .header__lang-link{
-    color:white;
-}
-.header__lang-link:last-child{
-    text-decoration: none;
-}
-.header__lang-link:first-child{
-    text-decoration: underline;
+    font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 116.667% */
 }

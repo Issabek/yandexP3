@@ -1,0 +1,10 @@
+.cover__background{
+    background: url("../../../images/cover.svg");
+    height: 740px;
+    width: 1184px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 1;
+    position: relative;
+}
