@@ -1,3 +1,6 @@
 .places__link{
     text-decoration: underline;
 }
+.places__link:hover{
+    cursor: pointer;
+}
