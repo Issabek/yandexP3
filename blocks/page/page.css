@@ -1,14 +1,25 @@
+@font-face {
+  font-family: "Inter";
+  src: url(https://pictures.s3.yandex.net/frontend-developer/responsive/Inter-Regular.woff);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url(https://pictures.s3.yandex.net/frontend-developer/responsive/Inter-Bold.woff2);
+  font-weight: bold;
+}
 .page {
-    max-width: 1280px;
-    /* выше установили ограничение по максимальной ширине */
-    margin: 0 auto;
-    /* выше для экранов больше 1600px отцентрировали весь контент */
-    font-family: Inter, sans-serif;
-    color: white;
-    overflow: unset;
+  max-width: 1280px;
+  /* выше установили ограничение по максимальной ширине */
+  margin: 0 auto;
+  /* выше для экранов больше 1600px отцентрировали весь контент */
+  font-family: Inter, sans-serif;
+  color: white;
+  overflow: unset;
 }
 @media screen and (max-width: 320px) {
-    .page {
-        width: 320px;
-    }
+  .page {
+    width: 320px;
+  }
 }

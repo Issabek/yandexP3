@@ -2,3 +2,11 @@
     list-style: none;
     padding: 0;
 }
+
+@media screen and (max-width: 320px) {
+    .footer__links {
+        display: flex;
+        flex-direction: column;
+        row-gap: 32px;
+    }
+}
