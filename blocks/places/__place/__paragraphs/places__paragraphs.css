@@ -1,23 +1,23 @@
-.places_paragraphs{
+.places__paragraphs{
     display: flex;
     flex-direction: column;
     row-gap: 25px;
     width: 484px;
 }
 @media screen and (max-width: 1024px) {
-    .places_paragraphs {
+    .places__paragraphs {
         width: 456px;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .places_paragraphs {
+    .places__paragraphs {
         width: 352px;
     }
 }
 
 @media screen and (max-width: 320px) {
-    .places_paragraphs {
+    .places__paragraphs {
         width: 288px;
         margin: auto;
 
