@@ -1,7 +1,33 @@
 .lead__image{
     width:984px;
     height:615px;
-    background-image: url("/images/russian-map.svg");
+    background-image: url("/images/russian-map.png");
     position: relative;
     margin: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-self: center;
+}
+
+@media screen and (max-width: 1024px){
+    .lead__image{
+        width:928px;
+        height:580px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .lead__image{
+        width:768px;
+        height:480px;
+        margin: 0;
+    }
+}
+@media screen and (max-width: 768px) {
+    .lead__image{
+        width:320px;
+        height:200px;
+        margin: 0;
+        
+    }
 }

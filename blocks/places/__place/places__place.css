@@ -5,3 +5,27 @@
     grid-template-columns: auto auto;
     grid-template-rows: auto auto;
 }
+
+@media screen and (max-width: 1024px){
+    .places__place{
+        column-gap:32px;
+        max-width: 1024px;
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .places__place{
+        column-gap:28px;
+        max-width: 768px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .places__place{
+        display: flex;
+        flex-direction: column;
+        row-gap: 32px;
+        max-width: 320px;
+    }
+}

@@ -1,6 +1,26 @@
-.places__website{
+.places__website {
     display: flex;
     flex-direction: column;
     justify-content: end;
-    width:484px;
+    width: 484px;
+}
+
+@media screen and (max-width: 1024px) {
+    .places__website {
+        width: 456px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .places__website {
+        width: 352px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .places__website {
+        width: 288px;
+        margin: auto;
+
+    }
 }

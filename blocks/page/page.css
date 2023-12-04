@@ -1,8 +1,14 @@
-.page{
-max-width: 1280px;
-/* выше установили ограничение по максимальной ширине */
-margin: 0 auto;
-/* выше для экранов больше 1600px отцентрировали весь контент */
-font-family: Inter, sans-serif;
-color:white;
+.page {
+    max-width: 1280px;
+    /* выше установили ограничение по максимальной ширине */
+    margin: 0 auto;
+    /* выше для экранов больше 1600px отцентрировали весь контент */
+    font-family: Inter, sans-serif;
+    color: white;
+    overflow: unset;
+}
+@media screen and (max-width: 320px) {
+    .page {
+        width: 320px;
+    }
 }

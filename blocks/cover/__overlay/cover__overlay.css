@@ -1,4 +1,4 @@
-.cover__overlay{
+.cover__overlay {
     opacity: 0.3;
     background: #2A2C2F;
     transition-property: opacity;
@@ -10,7 +10,29 @@
     width: 1184px;
 }
 
-.cover__overlay:hover{
+.cover__overlay:hover {
     opacity: 0.8;
     cursor: pointer;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .cover__overlay {
+        height: 640px;
+        width: 1024px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover__overlay {
+        height: 480px;
+        width: 768px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover__overlay {
+        height: 200px;
+        width: 320px;
+    }
 }

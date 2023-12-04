@@ -2,3 +2,22 @@
     grid-row: span 2;
     width:460px;
 }
+
+@media screen and (max-width: 1024px) {
+    .places__image{
+        grid-row: span 2;
+        width:440px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .places__image{
+        grid-row: span 2;
+        width:340px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .places__image{
+        width:320px;
+    }
+}

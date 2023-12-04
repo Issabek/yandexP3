@@ -1,5 +1,5 @@
-.cover__background{
-    background: url("../../../images/cover.svg");
+.cover__background {
+    background: url("../../../images/cover.png");
     height: 740px;
     width: 1184px;
     display: flex;
@@ -7,4 +7,30 @@
     justify-content: center;
     z-index: 1;
     position: relative;
+    background-size:contain;
+    background-repeat: no-repeat;
 }
+
+@media screen and (max-width: 1024px) {
+    .cover__background {
+        height: 640px;
+        width: 1024px;
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover__background {
+        height: 480px;
+        width: 768px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover__background {
+        height: 200px;
+        width: 320px;
+    }
+}
+
+

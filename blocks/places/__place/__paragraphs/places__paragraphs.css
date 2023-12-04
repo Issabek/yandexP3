@@ -1,5 +1,25 @@
 .places_paragraphs{
     display: flex;
     flex-direction: column;
-    row-gap: 26px;
+    row-gap: 25px;
+    width: 484px;
+}
+@media screen and (max-width: 1024px) {
+    .places_paragraphs {
+        width: 456px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .places_paragraphs {
+        width: 352px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .places_paragraphs {
+        width: 288px;
+        margin: auto;
+
+    }
 }
